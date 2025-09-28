@@ -1,39 +1,31 @@
 <title>课堂练习1</title>
-<link rel="stylesheet" href="../../css/md-style.css">
-<div class="md-container">
+<link rel="stylesheet" href="../../css/style.css">
+<h1>课堂练习1</h1>
+<div class="md-body">
 
-# 课堂练习1
-
-## 显示字符串“I Love Java”
-
-**【问题描述】**
-设计一个Java程序，显示一个字符串“I Love Java”
-
+## 显示字符串“I Love Java” 
+**【问题描述】** 
+设计一个Java程序，显示一个字符串“I Love Java”   
 **【输入形式】**
-无
-
+无  
 **【输出形式】**
-显示一行字符串“I Love Java”
-
+显示一行字符串“I Love Java”  
 **【样例输入】**
-无
-
+无  
 **【样例输出】**
-无
-
+无  
 **【样例说明】**
-无
-
+无  
 **【评分标准】**
-字符串完全正确得20分
+字符串完全正确得20分  
 
 ```java
 package love;
 
 public class Love {
-    public static void main(String[] args) {
-        System.out.println("I Love Java");
-    }
+	public static void main(String[] args) {
+		System.out.println("I Love Java");
+	}
 }
 ```
 
