@@ -5,5 +5,3 @@ public class Love {
 		System.out.println("I Love Java");
 	}
 }
-
-

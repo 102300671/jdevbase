@@ -1,25 +1,27 @@
-## 显示字符串“I Love Java” 
-**【问题描述】** 
-设计一个Java程序，显示一个字符串“I Love Java”   
-**【输入形式】**
-无  
-**【输出形式】**
-显示一行字符串“I Love Java”  
-**【样例输入】**
-无  
-**【样例输出】**
-无  
-**【样例说明】**
-无  
-**【评分标准】**
-字符串完全正确得20分  
+<title>课堂练习2-1</title>
+<link rel="stylesheet" href="../../../css/style.css">
+<h1>课堂练习2-1</h1>
+
+## 摄氏华氏温度转换 （无输入）
+**【问题描述】**
+假如用C表示摄氏温度，F表示华氏温度，则有：F=C*9/5+32。给定一个摄氏温度值，根据该公式编程求对应的华氏温度，结果小数点后保留一位有效数字。  
+**【输入】**  
+给定摄氏温度101  
+**【输出】**
+213.8  
+提示：输出保留小数点后一位有效数字，可以使用如下形式：  
+`System.out.printf("%.1f",f);`  
+printf和C语音的printf非常类似。
 
 ```java
-package love;
+package cn.edu.ncist;
 
-public class Love {
+public class Tem {
 	public static void main(String[] args) {
-		System.out.println("I Love Java");
+		int c=101;
+		float f;
+		f=c*9f/5+32;
+		System.out.printf("%.1f\n",f);
 	}
 }
 ```

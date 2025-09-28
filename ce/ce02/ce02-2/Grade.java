@@ -18,5 +18,3 @@ public class Grade {
 		sc.close();
 	}
 }
-
-

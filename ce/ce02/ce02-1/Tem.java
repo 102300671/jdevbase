@@ -8,4 +8,3 @@ public class Tem {
 		System.out.printf("%.1f\n",f);
 	}
 }
-
