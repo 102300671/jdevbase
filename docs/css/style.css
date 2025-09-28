@@ -1,17 +1,42 @@
-/* 只设置背景，不影响其他元素样式 */
+/* 只设置背景，不做全局重置 */
 body {
   font-family: 'Microsoft YaHei', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #1e88e5 0%, #42a5f5 100%);
+  line-height: 1.6;
+  color: #333;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   min-height: 100vh;
   padding: 20px;
 }
 
-/* 如果需要让内容区域有白色背景 */
-.md-body {
+/* 头部样式 */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 30px 0;
   background: rgba(255, 255, 255, 0.95);
   border-radius: 15px;
-  padding: 30px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  max-width: 900px;
+  backdrop-filter: blur(10px);
+}
+
+/* 主要内容区域 */
+.markdown-body {
+  max-width: 800px;
   margin: 0 auto;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+  
+  .markdown-body {
+    padding: 20px;
+  }
 }

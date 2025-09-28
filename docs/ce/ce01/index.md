@@ -1,7 +1,7 @@
 <title>课堂练习1</title>
 <link rel="stylesheet" href="../../css/style.css">
 <h1>课堂练习1</h1>
-<div class="md-body">
+<div class="markdown-body">
 
 ## 显示字符串“I Love Java” 
 **【问题描述】** 
