@@ -1,3 +1,4 @@
+/* 基础重置和全局样式 */
 * {
   margin: 0;
   padding: 0;
@@ -13,126 +14,26 @@ body {
   padding: 20px;
 }
 
-/* 容器样式 */
-.container {
-  max-width: 900px;
-  margin: 0 auto;
+/* 头部样式 */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 30px 0;
   background: rgba(255, 255, 255, 0.95);
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(10px);
-  overflow: hidden;
-}
-
-/* 头部样式 */
-header {
-  text-align: center;
-  padding: 30px 0;
-  background: rgba(52, 152, 219, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-header h1 {
-  font-size: 2.5rem;
-  color: #2c3e50;
-  font-weight: 300;
-  letter-spacing: 2px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* 主要内容区域 */
-.content {
-  padding: 30px;
-}
-
-/* 问题描述样式 */
-.problem-section {
-  margin-bottom: 30px;
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.7);
-  border-radius: 10px;
-  border-left: 4px solid #3498db;
-}
-
-.problem-section h2 {
-  color: #2c3e50;
-  margin-bottom: 15px;
-  font-size: 1.8rem;
-}
-
-.problem-section p {
-  margin-bottom: 10px;
-  font-size: 1.1rem;
-}
-
-/* 代码区域样式 */
-.code-section {
-  margin-bottom: 30px;
-}
-
-.code-section h2 {
-  color: #2c3e50;
-  margin-bottom: 15px;
-  font-size: 1.8rem;
-}
-
-pre {
-  background: #2c3e50;
-  color: #ecf0f1;
-  padding: 20px;
-  border-radius: 8px;
-  overflow-x: auto;
-  font-family: 'Courier New', monospace;
-  line-height: 1.5;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-/* 输出样式 */
-.output-section {
-  margin-bottom: 30px;
-}
-
-.output-section h2 {
-  color: #2c3e50;
-  margin-bottom: 15px;
-  font-size: 1.8rem;
-}
-
-.output-box {
-  background: #f8f9fa;
-  border: 1px solid #e9ecef;
-  border-radius: 8px;
-  padding: 15px;
-  font-family: 'Courier New', monospace;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
-}
-
-/* 导航按钮 */
-.nav-buttons {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 30px;
-}
-
-.nav-button {
-  display: inline-block;
-  text-decoration: none;
-  background: rgba(52, 152, 219, 0.9);
-  padding: 12px 25px;
-  border-radius: 8px;
-  color: white;
-  font-size: 1.1rem;
-  font-weight: 500;
-  text-align: center;
-  transition: all 0.3s ease;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  border: 2px solid transparent;
-}
-
-.nav-button:hover {
-  background: rgba(41, 128, 185, 1);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  transform: translateY(-2px);
+.markdown-body {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
 }
 
 /* 响应式设计 */
@@ -140,52 +41,8 @@ pre {
   body {
     padding: 10px;
   }
-
-  header h1 {
-    font-size: 2rem;
-  }
-
-  .content {
+  
+  .md-body {
     padding: 20px;
   }
-
-  .nav-buttons {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .nav-button {
-    width: 100%;
-  }
-}
-
-@media (max-width: 480px) {
-  header {
-    padding: 20px 0;
-  }
-
-  header h1 {
-    font-size: 1.6rem;
-  }
-
-  .content {
-    padding: 15px;
-  }
-}
-
-/* 加载动画 */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.container {
-  animation: fadeInUp 0.6s ease-out;
 }
