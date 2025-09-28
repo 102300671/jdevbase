@@ -31,7 +31,7 @@ I had a dream that Tom ate a blue dog and said that it tasted like hamburger!
 ```
 
 **【样例说明】**  
-![lab2-1](lab2-1.png)
+![lab2-1](lab2-1.png)  
 **【评分标准】**
 
 ```java
@@ -89,8 +89,8 @@ Enter your weight(kg): 65
 **【样例输出】**
 Your BMI is 22.49134948096886  
 You are Normal weight.  
-**【样例说明】**
-![lab2-2](lab2-2.png)
+**【样例说明】**  
+![lab2-2](lab2-2.png)  
 **【评分标准】**
 
 ```java
