@@ -1,7 +1,6 @@
 <title>课堂练习1</title>
 <link rel="stylesheet" href="../../css/style.css">
 <h1>课堂练习1</h1>
-<div class="markdown-body">
 
 ## 显示字符串“I Love Java” 
 **【问题描述】** 
@@ -28,5 +27,3 @@ public class Love {
 	}
 }
 ```
-
-</div>
