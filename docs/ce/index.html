@@ -13,14 +13,20 @@
   </header>
   <main>
     <ul>
-      {% for folder in site.static_files %}
-        {% if folder.path contains 'ce/ce' and folder.path != 'ce' %}
-          {% assign folderName = folder.path | split: '/' | last %}
-          {% assign exerciseNum = folderName | remove: 'ce' %}
-          <li><a href="{{ folder.path | relative_url }}">课堂练习{{ exerciseNum }}</a></li>
+      {% assign ce_pages = site.pages | where: "dir", "/docs/ce" | sort: "url" %}
+      {% for page in ce_pages %}
+        {% assign page_dir = page.url | remove: "/docs/ce/" | split: '/' | first %}
+        {% if page_dir != "ce" and page_dir != "" %}
+            {% unless previous_dir == page_dir %}
+            <li>
+                <a href="{{ page_dir }}">{{ page_dir | upcase }} - 课堂练习</a>
+            </li>
+            {% assign previous_dir = page_dir %}
+            {% endunless %}
         {% endif %}
       {% endfor %}
     </ul>
+ 
 
   </main>
 </body>
