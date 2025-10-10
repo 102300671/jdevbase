@@ -4,26 +4,42 @@ body {
   padding: 20px;
 }
 
-/* 限制代码高亮容器的最大宽度，解决白框过大问题 */
-/* 针对代码块容器，优先占满可用空间，同时限制最大宽度 */
+/* 调整代码块外层容器的宽度和边距 */
 .highlight {
   width: 100% !important;
-  max-width: 1000px !important; /* 可根据页面布局调整，如设为 90% 或固定像素 */
+  max-width: 800px !important; /* 可根据页面布局调整，建议与正文宽度一致 */
   margin: 20px auto !important;
   background: #fff;
   border-radius: 6px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-/* 确保代码区域本身的宽度跟随容器，过长时显示滚动条 */
+/* 强制代码内容区域占满容器 */
 .highlight pre {
+  width: 100% !important;
   overflow-x: auto;
   white-space: pre;
-  width: 100% !important;
+  padding: 1rem !important; /* 增加内边距，避免代码紧贴边框 */
 }
 
-/* 若主题对行号列有额外宽度限制，可单独调整行号容器 */
+/* 若主题对行号列有固定宽度，直接重置 */
 .highlight .lineno {
-  width: auto !important; /* 取消行号列的固定宽度 */
+  width: auto !important;
+  padding-right: 1rem !important; /* 行号与代码之间增加间距 */
 }
+
+/* 响应式优化：电脑端和手机端分别调整 */
+@media (min-width: 768px) {
+  .highlight {
+    max-width: 90% !important; /* 电脑端放宽宽度 */
+  }
+}
+
+@media (max-width: 767px) {
+  .highlight {
+    max-width: 100% !important; /* 手机端占满屏幕 */
+    margin: 10px 0 !important;
+  }
+}
+
 
