@@ -18,12 +18,6 @@
 **【评分标准】**
 字符串完全正确得20分  
 
-```java
-package love;
-
-public class Love {
-	public static void main(String[] args) {
-		System.out.println("I Love Java");
-	}
-}
-```
+{% highlight java linenos %}
+{% include ce/ce01/Love.java %}
+{% endhighlight %}

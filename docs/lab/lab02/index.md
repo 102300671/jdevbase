@@ -34,37 +34,9 @@ I had a dream that Tom ate a blue dog and said that it tasted like hamburger!
 ![lab2-1](lab2-1.png)  
 **【评分标准】**
 
-```java
-import java.util.Scanner;
-
-public class Friend {
-  public String color;
-  public String food;
-  public String animal;
-  public String name;
-  
-  public Friend(String color, String food, String animal, String name) {
-    this.color = color;
-    this.food = food;
-    this.animal = animal;
-    this.name = name;
-  }
-  public void print() {
-    System.out.printf("I had a dream that %s ate a %s %s and said that it tasted like %s!\n", name, color, animal, food);
-  }
-  public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    System.out.println("Please input your favorite color, food, animal and the best friend line by line:");
-    String color = sc.nextLine();
-    String food = sc.nextLine();
-    String animal = sc.nextLine();
-    String name = sc.nextLine();
-    Friend sentence = new Friend(color, food, animal, name);
-    sentence.print();
-    sc.close();
-  }
-}
-```
+{% highlight java linenos %}
+{% include lab/lab02/Friend.java %}
+{% endhighlight %}
 
 ## 2. 胖瘦程度计算
 **【问题描述】**
@@ -93,45 +65,9 @@ You are Normal weight.
 ![lab2-2](lab2-2.png)  
 **【评分标准】**
 
-```java
-import java.util.Scanner;
-import java.lang.Math;
-
-public class BMI {
-  private double height;
-  private double weight;
-  private double bmi;
-  private String result;
-  public BMI(double height, double weight) {
-    this.height = height;
-    this.weight = weight;
-  }
-  public void Judgment() {
-    bmi = weight / Math.pow(height, 2);
-    if(bmi < 18.5) result = "Underweight";
-    else if(bmi < 24) result = "Normal weight";
-    else if(bmi < 27) result = "Overweight";
-    else result = "Obese";
-  }
-  public void print() {
-    System.out.printf("Your BMI is %.1f\n", bmi);
-    System.out.printf("You are %s.\n", result);
-  }
-  public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    double height;
-    double weight;
-    System.out.print("Enter your height(m): ");
-    height = sc.nextDouble();
-    System.out.print("Enter your weight(kg): ");
-    weight = sc.nextDouble();
-    BMI bmi = new BMI(height, weight);
-    bmi.Judgment();
-    bmi.print();
-    sc.close();
-  }
-}
-```
+{% highlight java linenos %}
+{% include lab/lab02/BMI.java %}
+{% endhighlight %}
 
 ## 3. 使用循环编程
 **【问题描述】**
@@ -147,26 +83,9 @@ public class BMI {
 **【样例说明】**  
 **【评分标准】**
 
-```java
-import java.util.Scanner;
-
-public class Stat {
-  public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    int i;
-    int o = 0;
-    int e = 0;
-    while(true) {
-      i = sc.nextInt();
-      if(i == -1) break;
-      else if(i %2 == 0) e++;
-      else o++;
-    }
-    System.out.println(o+" "+e);
-    sc.close();
-  }
-}
-```
+{% highlight java linenos %}
+{% include lab/lab02/Stat.java %}
+{% endhighlight %}
 
 ## 4. 基本编程-找出完数
 **【问题描述】**
@@ -185,28 +104,6 @@ n~m之间（包括n和m）的全部完数
 **【样例输出】**
 6 28 496 8128 
 
-```java
-import java.util.Scanner;
-
-public class PerNum {
-  public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    int n, m, sum;
-    n = sc.nextInt();
-    m = sc.nextInt();
-    for(int i = n; i <= m; i++) {
-      if(i < 6) continue;
-      sum = 1;
-      for(int j = 2; j <= (int)Math.sqrt(i); j++) {
-        if(i % j == 0) {
-          sum += j;
-          if(j != i / j) sum += i / j;
-        }
-      }
-      if(sum == i) System.out.print(i+" ");
-    }
-    System.out.println();
-    sc.close();
-  }
-}
-```
+{% highlight java linenos %}
+{% include lab/lab02/PerNum.java %}
+{% endhighlight %}

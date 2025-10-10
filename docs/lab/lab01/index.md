@@ -18,15 +18,9 @@ a b c
 ```
 <font color="red">注意：必须编码实现，直接输出不得分！</font>
 
-```
-public class B {
-  public static void main(String[] args) {
-    char x='b';
-    System.out.println((char)(x-1)+" "+x+" "+(char)(x+1));
-    System.out.println(x-1+" "+(int)x+" "+(x+1));
-  }
-}
-```
+{% highlight java linenos %}
+{% include lab/lab01/B.java %}
+{% endhighlight %}
 
 ## 2. 数值变换 (无输入)
 **【问题描述】**
@@ -56,29 +50,9 @@ public class NumberInverse {
 }
 ```
 
-```java
-public class NumberInverse {
-
-	public static void main(String[] args) {
-
-		int x = 369;
-
-                int y; //逆转后的数
-
-		//这里写逆转的代码
-		y=0;
-		while(x>0) {
-		  y=y*10+x%10;
-		  x=x/10;
-		}
-
-		System.out.println(y);
-
-	}
-
-}
-
-```
+{% highlight java linenos %}
+{% include lab/lab01/NumberInverse.java %}
+{% endhighlight %}
 
 ## 3. 交换两个数(有输入)
 **【问题描述】**
@@ -104,19 +78,6 @@ public class NumberInverse {
 **【样例说明】**
 无
 
-```java
-import java.util.Scanner;
-public class Swap {
-  public static void main(String[] args) {
-    Scanner sc=new Scanner(System.in);
-    int a,b,t;
-    a=sc.nextInt();
-    b=sc.nextInt();
-    t=a;
-    a=b;
-    b=t;
-    System.out.println(a+" "+b);
-    sc.close();
-  }
-}
-```
+{% highlight java linenos %}
+{% include lab/lab01/Swap.java %}
+{% endhighlight %}

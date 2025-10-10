@@ -21,22 +21,9 @@
 无  
 **【评分标准】**
 
-```java
-import java.util.Scanner;
-
-public class SumN {
-  public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int sum = 0;
-    for(int i = 0; i < n; i+= 2) {
-      sum += i;
-    }
-    System.out.println(sum);
-    sc.close();
-  }
-}
-```
+{% highlight java linenos %}
+{% include ce/ce03/SumN.java %}
+{% endhighlight %}
 
 ## 2. 找最大最小整数
 **【问题描述】**
@@ -55,31 +42,6 @@ public class SumN {
 **【样例说明】**
 用户第一次输入的为数据个数，在下一行依次输入数据。输出为5个数中的最大值和最小值，输出时候两个数之间用空格分隔。
 
-```java
-import java.util.Scanner;
-
-public class Maxin {
-  public static void main(String[] args) {
-    Scanner sc=new Scanner(System.in);
-    int n;
-    n = sc.nextInt();
-    int[] arr = new int[n];
-    for(int i = 0; i < n; i++) {
-      arr[i] = sc.nextInt();
-    }
-    int min;
-    int max;
-    min = max = arr[0];
-    for(int i = 1; i < n; i++) {
-      if(min > arr[i]) {
-        min = arr[i];
-      }
-      if(max < arr[i]) {
-        max = arr[i];
-      }
-    }
-    System.out.println(max+" "+min);
-    sc.close();
-  }
-}
-```
+{% highlight java linenos %}
+{% include ce/ce03/Maxin.java %}
+{% endhighlight %}

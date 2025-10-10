@@ -13,15 +13,6 @@
 `System.out.printf("%.1f",f);`  
 printf和C语音的printf非常类似。
 
-```java
-package cn.edu.ncist;
-
-public class Tem {
-	public static void main(String[] args) {
-		int c=101;
-		float f;
-		f=c*9f/5+32;
-		System.out.printf("%.1f\n",f);
-	}
-}
-```
+{% highlight java linenos %}
+{% include ce/ce02/ce02-1/Tem.java %}
+{% endhighlight %}

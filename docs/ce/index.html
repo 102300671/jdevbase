@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
-  <head>
-    <meta charset="utf-8">
-    <title>课堂练习</title>
-    <link rel="stylesheet" href="../css/list.css">
-  </head>
-  <body>
-    <header>
-      <h1>课堂练习</h1>
-    </header>
-    <main>
-      <ul>
-        <li><a href="ce01">课堂练习1</a></li>
-        <li><a href="ce02">课堂练习2</a></li>
-        <li><a href="ce03">课堂练习3</a></li>
-      </ul>
-    </main>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>课堂练习</title>
+  <link rel="stylesheet" href="../css/list.css">
+</head>
+
+<body>
+  <header>
+    <h1>课堂练习</h1>
+  </header>
+  <main>
+    <ul>
+      {% for folder in site.static_files %}
+      {% if folder.path contains 'ce/ce' and folder.path != 'ce' %}
+      {% assign folderName = folder.path | split: '/' | last %}
+      {% assign exerciseNum = folderName | remove: 'ce' %}
+      <li><a href="{{ folder.path | relative_url }}">课堂练习{{ exerciseNum }}</a></li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+
+  </main>
+</body>
+
 </html>
