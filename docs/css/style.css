@@ -3,3 +3,14 @@ body {
   background: linear-gradient(135deg, #1e88e5 0%, #42a5f5 100%);
   padding: 20px;
 }
+
+.highlight {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+.highlight pre {
+  padding: 1rem;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
