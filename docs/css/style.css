@@ -4,13 +4,17 @@ body {
   padding: 20px;
 }
 
+/* 限制代码高亮容器的最大宽度，解决白框过大问题 */
 .highlight {
-  width: 100% !important;
-  max-width: none !important;
+  max-width: 800px !important; /* 与列表页的 main 宽度保持一致 */
+  margin: 20px auto !important; /* 居中显示并增加上下边距 */
+  background: #fff; /* 确保背景为白色，避免透明导致的显示问题 */
+  border-radius: 6px; /* 可选：增加圆角美化 */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 可选：添加轻微阴影 */
 }
 
+/* 调整代码区域内边距，避免内容紧贴边框 */
 .highlight pre {
-  padding: 1rem;
-  font-size: 0.9em;
-  line-height: 1.5;
+  overflow-x: auto; /* 当代码过长时显示横向滚动条 */
+  white-space: pre; /* 保留代码原有格式 */
 }
