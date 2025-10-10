@@ -14,11 +14,11 @@
   <main>
     <ul>
       {% for folder in site.static_files %}
-      {% if folder.path contains 'ce/ce' and folder.path != 'ce' %}
-      {% assign folderName = folder.path | split: '/' | last %}
-      {% assign exerciseNum = folderName | remove: 'ce' %}
-      <li><a href="{{ folder.path | relative_url }}">课堂练习{{ exerciseNum }}</a></li>
-      {% endif %}
+        {% if folder.path contains 'ce/ce' and folder.path != 'ce' %}
+          {% assign folderName = folder.path | split: '/' | last %}
+          {% assign exerciseNum = folderName | remove: 'ce' %}
+          <li><a href="{{ folder.path | relative_url }}">课堂练习{{ exerciseNum }}</a></li>
+        {% endif %}
       {% endfor %}
     </ul>
 

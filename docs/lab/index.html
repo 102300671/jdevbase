@@ -14,11 +14,11 @@
   <main>
     <ul>
       {% for folder in site.static_files %}
-      {% if folder.path contains 'lab/lab' and folder.path != 'lab' %}
-      {% assign folderName = folder.path | split: '/' | last %}
-      {% assign exerciseNum = folderName | remove: 'lab' %}
-      <li><a href="{{ folder.path | relative_url }}">上机作业{{ exerciseNum }}</a></li>
-      {% endif %}
+        {% if folder.path contains 'lab/lab' and folder.path != 'lab' %}
+          {% assign folderName = folder.path | split: '/' | last %}
+          {% assign exerciseNum = folderName | remove: 'lab' %}
+          <li><a href="{{ folder.path | relative_url }}">上机作业{{ exerciseNum }}</a></li>
+        {% endif %}
       {% endfor %}
     </ul>
 
