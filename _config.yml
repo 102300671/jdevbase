@@ -1,6 +1,6 @@
 title: "JDevBase"
-baseurl: ""
-url: ""
+baseurl: "/jdevbase/docs"
+url: "https://102300671.github.io"
 
 # 包含必要的目录
 include:
