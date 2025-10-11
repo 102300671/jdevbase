@@ -26,3 +26,35 @@ title: 课堂练习4
 {% highlight java linenos %}
 {% include ce/ce04/AboveAvg.java %}
 {% endhighlight %}
+
+## 2. 使用数组，找出最高工资并指出位置
+**【问题描述】**
+定义一个数组来保存教师工资，编程找出并显示最高工资，指出第几个工资最高。
+说明：
+（1）输入数据为6个整数，表示6位教师的工资
+（2）输出格式为"No X salary maxsalary:YYYY"，其中X表示最高工资的位置（从1开始计数），YYYY表示最高工资的具体数值
+
+**【输入形式】**
+6个整数，之间用空格分开，输入结束后按回车
+**【输出形式】**
+No X salary maxsalary:YYYY
+**【样例输入】**
+7000 6500 7890 8500 8000 8200
+**【样例输出】**
+No 4 salary maxsalary:8500
+**【样例说明】**
+- 输入样例中，第4个数字8500是最高工资
+- 若输入为8500 7000 6500 7890 8000 8200，则输出为No 1 salary maxsalary:8500
+**【评分标准】**
+
+注意：没有输入提示。代码中不要出现任何中文符号！
+
+### 解决方案1：直接读取整数
+{% highlight java linenos %}
+{% include ce/ce04/MaxSalary.java %}
+{% endhighlight %}
+
+### 解决方案2：读取整行再分割
+{% highlight java linenos %}
+{% include ce/ce04/MaxSalaryStr.java %}
+{% endhighlight %}
