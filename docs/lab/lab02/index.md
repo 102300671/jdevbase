@@ -1,5 +1,8 @@
-<title>上机作业2</title>
-<link rel="stylesheet" href="../../css/style.css">
+---
+layout: md
+title: 上机作业2
+---
+
 <h1>上机作业2</h1>
 
 ## 1. 组句游戏

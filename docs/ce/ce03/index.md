@@ -1,5 +1,8 @@
-<title>课堂练习3</title>
-<link rel="stylesheet" href="../../css/style.css">
+---
+layout: md
+title: 课堂练习3
+---
+
 <h1>课堂练习3</h1>
 
 ## 1. 循环编程练习-计算n以内的偶数和

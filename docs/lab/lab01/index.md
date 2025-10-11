@@ -1,5 +1,8 @@
-<title>上机作业1</title>
-<link rel="stylesheet" href="../../css/style.css">
+---
+layout: md
+title: 上机作业1
+---
+
 <h1>上机作业1</h1>
 
 ## 1. 前驱、后继字符 (无输入)

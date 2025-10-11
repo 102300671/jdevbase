@@ -1,5 +1,8 @@
-<title>课堂练习4</title>
-<link rel="stylesheet" href="../../css/style.css">
+---
+layout: md
+title: 课堂练习4
+---
+
 <h1>课堂练习4</h1>
 
 ##  1. 使用数组，统计高于平均成绩的学生人数
