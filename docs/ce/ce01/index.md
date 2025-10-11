@@ -1,5 +1,8 @@
-<title>课堂练习1</title>
-<link rel="stylesheet" href="../../css/style.css">
+---
+layout: md
+title: 课堂练习1
+---
+
 <h1>课堂练习1</h1>
 
 ## 显示字符串“I Love Java” 

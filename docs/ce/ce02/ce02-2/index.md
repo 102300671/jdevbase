@@ -1,5 +1,8 @@
-<title>课堂练习2-2</title>
-<link rel="stylesheet" href="../../../css/style.css">
+---
+layout: md
+title: 课堂练习2-2
+---
+
 <h1>课堂练习2-2</h1>
 
 ## 分支-学生的成绩分级

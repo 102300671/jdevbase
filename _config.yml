@@ -1,0 +1,9 @@
+title: "JDevBase"
+baseurl: ""
+url: ""
+
+# 包含必要的目录
+include:
+  - _includes
+  - docs
+  - _layouts

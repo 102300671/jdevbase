@@ -1,5 +1,8 @@
-<title>课堂练习2-1</title>
-<link rel="stylesheet" href="../../../css/style.css">
+---
+layout: md
+title: 课堂练习2-1
+---
+
 <h1>课堂练习2-1</h1>
 
 ## 摄氏华氏温度转换 （无输入）
