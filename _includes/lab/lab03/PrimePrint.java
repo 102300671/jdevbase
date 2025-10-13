@@ -5,7 +5,7 @@ public class PrimePrint {
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
     int count = 0;
-    for(int i = 100; i < n; i++) {
+    for(int i = 101; i < n; i+=2) {
       boolean isprime = true;
       for(int j = 2; j <= Math.sqrt(i); j++) {
         if(i % j == 0) {
