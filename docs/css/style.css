@@ -27,17 +27,21 @@ body {
 /* 确保代码内容本身的宽度不被压缩 */
 .highlight pre {
   overflow-x: auto;
-  white-space: pre;
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
   width: fit-content !important;
   min-width: 100% !important;
   padding: 1rem !important;
   font-size: 0.95em;
+  /* 新增：统一代码块内边距，避免行号和代码拥挤 */
+  box-sizing: border-box; 
 }
 
-/* 行号列也自适应宽度 */
+/* 行号列也自适应宽度 + 增加行号与代码的间距 */
 .highlight .lineno {
   width: auto !important;
-  padding-right: 1rem !important;
+  padding-right: 0.3rem !important; /* 加大行号与代码的间距 */
+  color: #666; /* 可选：调整行号颜色，增强可读性 */
 }
 
 /* 响应式优化：手机端仍占满宽度，避免过窄 */
@@ -50,5 +54,12 @@ body {
   .highlight,
   .highlight pre {
     width: 100% !important;
+  }
+  
+  img {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block; /* 避免额外间隙 */
+  margin: 0 auto; /* 可选：居中显示 */
   }
 }
