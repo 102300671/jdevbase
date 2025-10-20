@@ -16,7 +16,10 @@ public class PrimeChecker {
         if (num <= 1 || (num % 2 == 0 && num != 2)) {
             return false;
         }
-        for (int i = 2; i <= Math.sqrt(num); i++) {
+        if(i == 2) {
+          return true;
+        }
+        for (int i = 3; i <= Math.sqrt(num); i += 2) {
             if (num % i == 0) {
                 return false;
             }
