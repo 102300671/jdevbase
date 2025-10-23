@@ -7,7 +7,7 @@ public class PrimeFactorization {
 		int[] arr = new int[20];
 		int i = 0;
 		if(isPrime(n)) {
-			System.out.print(n + "=");
+			System.out.print(n + "=" + n);
 			System.out.println(n);
 		}
 		else {
