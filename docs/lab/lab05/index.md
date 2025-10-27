@@ -13,7 +13,9 @@ title: 上机作业5
 name:Worker Zhang  
 age:28  
 salary:8888.0  
-level:SeniorEngineer
+level:SeniorEngineer  
+[Worker.zip](../../../_includes/lab/lab05/Worker/Worker.zip)
+主类名:Main
 
 {% highlight java linenos %}
 {% include lab/lab05/Worker/Worker.java %}
@@ -38,7 +40,9 @@ perimeter is:14.0
 若输入：5 8  
 则输出为：  
 area is:40.0  
-perimeter is:26.0
+perimeter is:26.0  
+[Rect.zip](../../../_includes/lab/lab05/Rect/Rect.zip)
+主类名:Main
 
 {% highlight java linenos %}
 {% include lab/lab05/Rect/Rect.java %}
@@ -75,7 +79,9 @@ price:3380
 注意下面几点，否则会扣分：  
 （1）必须定义两个类，分别是MobilePhone类和测试类；  
 （2）必须定义display方法  
-（3）输出的“HUAWEIMate30”、“16945678999”和“3380”是属性值。
+（3）输出的“HUAWEIMate30”、“16945678999”和“3380”是属性值。  
+[MobilePhone.zip](../../../_includes/lab/lab05/MobilePhone/MobilePhone.zip)
+主类名:test
 
 {% highlight java linenos %}
 {% include lab/lab05/MobilePhone/MobilePhone.java %}
