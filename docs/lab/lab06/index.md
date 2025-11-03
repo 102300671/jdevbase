@@ -80,7 +80,7 @@ public class Test{
 {% endhighlight %}
 
 ## 3. 
-[MyCircle.zip](../../../_includes/lab/lab06/MyCircle.zip)  
+[MyCircle.zip](../../../_includes/lab/lab06/MyCircle/MyCircle.zip)  
 主类名:Test
 
 {% highlight java linenos %}
