@@ -84,7 +84,7 @@ public class Test{
 主类名:Test
 
 {% highlight java linenos %}
-{% include lab/lab06/MyCircle/MyCirclr.java %}
+{% include lab/lab06/MyCircle/MyCircle.java %}
 {% endhighlight %}
 
 {% highlight java linenos %}
