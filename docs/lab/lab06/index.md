@@ -24,7 +24,7 @@ after modify,Work2 salary=10000.0
 ```
 main方法的代码如下：注意不要修改main类的代码，否则会扣分！！  
 ![lab06-1](lab6-1.png)
-[Worker.zip](../../../_includes/lab/lab06/Worker/Worker.zip)
+[Worker.zip](../../../_includes/lab/lab06/Worker/Worker.zip)  
 主类名:Test
 
 {% highlight java linenos %}
@@ -67,8 +67,8 @@ public class Test{
 【样例输出】  
 ![lab6-2](lab6-2.png)
 【样例说明】  
-【评分标准】
-[MyPoint.zip](../../../_includes/lab/lab/MyPoint/MyPoint.zip)
+【评分标准】  
+[MyPoint.zip](../../../_includes/lab/lab06/MyPoint/MyPoint.zip)  
 主类名:Test
 
 {% highlight java linenos %}
@@ -80,7 +80,7 @@ public class Test{
 {% endhighlight %}
 
 ## 3. 
-[MyCircle.zip](../../../_includes/lab/lab06/MyCircle.zip)
+[MyCircle.zip](../../../_includes/lab/lab06/MyCircle.zip)  
 主类名:Test
 
 {% highlight java linenos %}
