@@ -6,22 +6,22 @@ public class MyPoint {
     this.y = y;
   }
   public void display() {
-    System.out.printf(getIofo());
+    System.out.printf(getInfo());
   }
-  public void getInfo() {
+  public String getInfo() {
     return String.format("(%.1f,%.1f)", x, y);
   }
-  public void getX() {
+  public double getX() {
     return x;
   }
-  public void getY() {
+  public double getY() {
     return y;
   }
   public void move(double x, double y) {
     this.x = this.x + x;
     this.y = this.y + y;
   }
-  public double getDistance(MyPoint center) {
-    return Math.sqrt(Math.pow((center.x - this.x), 2 + Math.pow(center.y - this.y), 2);
+  public double getDistance(MyPoint point) {
+    return Math.sqrt(Math.pow((point.x - this.x), 2) + Math.pow((point.y - this.y), 2));
   }
 }
