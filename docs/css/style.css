@@ -44,6 +44,14 @@ body {
   color: #666; /* 可选：调整行号颜色，增强可读性 */
 }
 
+/* 确保所有屏幕尺寸下图片都能自适应容器 */
+img {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block; /* 避免额外间隙 */
+  margin: 0 auto; /* 可选：居中显示 */
+}
+
 /* 响应式优化：手机端仍占满宽度，避免过窄 */
 @media (max-width: 767px) {
   .md-content {
@@ -54,12 +62,5 @@ body {
   .highlight,
   .highlight pre {
     width: 100% !important;
-  }
-  
-  img {
-  max-width: 100% !important;
-  height: auto !important;
-  display: block; /* 避免额外间隙 */
-  margin: 0 auto; /* 可选：居中显示 */
   }
 }
