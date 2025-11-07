@@ -23,7 +23,7 @@ level=MiddleRank
 after modify,Work2 salary=10000.0  
 ```
 main方法的代码如下：注意不要修改main类的代码，否则会扣分！！  
-![lab06-1](lab6-1.png)
+![lab06-1](lab6-1.png)  
 [Worker.zip](../../../_includes/lab/lab06/Worker/Worker.zip)  
 主类名:Test
 
@@ -65,7 +65,7 @@ public class Test{
 (40.0,20.0)  
 【样例输入】  
 【样例输出】  
-![lab6-2](lab6-2.png)
+![lab6-2](lab6-2.png)  
 【样例说明】  
 【评分标准】  
 [MyPoint.zip](../../../_includes/lab/lab06/MyPoint/MyPoint.zip)  

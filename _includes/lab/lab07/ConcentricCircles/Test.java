@@ -1,4 +1,4 @@
-public class Test{
+public class Test {
   public static void main(String[] args) {
     int size = 5;
     double[] radius = {10.0,5.0,7.0,9.0,15.0};

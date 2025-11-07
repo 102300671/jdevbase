@@ -9,7 +9,7 @@ public class MyPoint {
     System.out.printf(getInfo());
   }
   public String getInfo() {
-    return String.format("(%.1f,%.1f)", x, y);
+    return String.format("(%.1f,%.1f)\n", x, y);
   }
   public double getX() {
     return x;

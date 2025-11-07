@@ -21,7 +21,7 @@ a b c
 97 98 99
 ```
 
-<font color="red">注意：必须编码实现，直接输出不得分！</font>
+<font color = "red">注意：必须编码实现，直接输出不得分！</font>
 
 {% highlight java linenos %}
 {% include lab/lab01/B.java %}
@@ -61,7 +61,7 @@ public class NumberInverse {
 
 ## 3. 交换两个数(有输入)
 **【问题描述】**
-<font color="red">输入两个数</font>，实现两个数的交换，并输出交换后的结果。  
+<font color = "red">输入两个数</font>，实现两个数的交换，并输出交换后的结果。  
 要点提示：
 1. 假设有两个整型变量a和b，设计一个临时变量temp辅助交换  
 2. 交换过程如下：
