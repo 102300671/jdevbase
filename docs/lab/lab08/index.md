@@ -147,7 +147,7 @@ Feeder Tom feed Cat with 100g Fish.
 **【样例说明】**  
 **【评分标准】**  
 [Animal.zip](../../../_includes/zip/lab/lab08/Animal.zip)  
-主类名:Test  
+主类名:lab.lab08.Animal.Test  
 
 {% highlight java linenos %}
 {% include lab/lab08/Animal/Animal.java %}
