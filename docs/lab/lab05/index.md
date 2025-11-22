@@ -81,7 +81,7 @@ price:3380
 （2）必须定义display方法  
 （3）输出的“HUAWEIMate30”、“16945678999”和“3380”是属性值。  
 [MobilePhone.zip](../../../_includes/zip/lab/lab05/MobilePhone.zip)
-主类名:test
+主类名:Test
 
 {% highlight java linenos %}
 {% include lab/lab05/MobilePhone/MobilePhone.java %}
