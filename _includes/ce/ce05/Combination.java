@@ -1,4 +1,7 @@
+package ce.ce05;
+
 import java.util.Scanner;
+
 public class Combination {
 
     public static void main(String[] args) {

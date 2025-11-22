@@ -1,3 +1,5 @@
+package ce.ce08;
+
 public class TestBook {
     public static void main(String[] args) {
         Book javaBook = new Book();
@@ -23,12 +25,7 @@ class Book {
     private String author; //作者
 
     //构造方法
-    public Book() {
-      this.id = id;
-      this.name = name;
-      this.price = price;
-      this.author = author;
-    }
+    public Book() {}
     public Book(int id, String name, double price, String author) {
       this.id = id;
       this.name = name;
@@ -38,8 +35,6 @@ class Book {
     public Book(int id, String name) {
       this.id = id;
       this.name = name;
-      this.price = price;
-      this.author = author;
     }
     
 

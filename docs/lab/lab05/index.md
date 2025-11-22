@@ -14,7 +14,7 @@ name:Worker Zhang
 age:28  
 salary:8888.0  
 level:SeniorEngineer  
-[Worker.zip](../../../_includes/lab/lab05/Worker/Worker.zip)
+[Worker.zip](../../../_includes/zip/lab/lab05/Worker.zip)
 主类名:Main
 
 {% highlight java linenos %}
@@ -41,7 +41,7 @@ perimeter is:14.0
 则输出为：  
 area is:40.0  
 perimeter is:26.0  
-[Rect.zip](../../../_includes/lab/lab05/Rect/Rect.zip)
+[Rect.zip](../../../_includes/zip/lab/lab05/Rect.zip)
 主类名:Main
 
 {% highlight java linenos %}
@@ -80,7 +80,7 @@ price:3380
 （1）必须定义两个类，分别是MobilePhone类和测试类；  
 （2）必须定义display方法  
 （3）输出的“HUAWEIMate30”、“16945678999”和“3380”是属性值。  
-[MobilePhone.zip](../../../_includes/lab/lab05/MobilePhone/MobilePhone.zip)
+[MobilePhone.zip](../../../_includes/zip/lab/lab05/MobilePhone.zip)
 主类名:test
 
 {% highlight java linenos %}

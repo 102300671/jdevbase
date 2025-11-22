@@ -1,3 +1,4 @@
+package ce.ce03;
 import java.util.Scanner;
 
 public class Maxin {

@@ -39,8 +39,8 @@ way2:84000
 **【样例输入】**  
 **【样例输出】**  
 **【样例说明】**  
-**【评分标准】**  
-[Worker.zip](../../../_includes/lab/lab07/Worker/Worker.zip)  
+**【评分标准】**
+[Worker.zip](../../../_includes/zip/lab/lab07/Worker.zip)  
 主类名:Test
 
 {% highlight java linenos %}
@@ -73,7 +73,7 @@ main方法的写法如下，注意，不要修改main的代码，否则会扣分
 4  
 **【样例说明】**  
 **【评分标准】**  
-[Function.zip](../../../_includes/lab/lab07/Function/Function.zip)  
+[Function.zip](../../../_includes/zip/lab/lab07/Function.zip)  
 主类名:Test
 
 {% highlight java linenos %}
@@ -91,7 +91,7 @@ main方法的写法如下，注意，不要修改main的代码，否则会扣分
 这两个方法根据接收的参数值，分别计算矩形的面积和周长。  
 main方法的代码如下，注意，不要修改main方法的代码，否则会扣分：  
 ![lab7-4](lab7-4.png)  
-[Rect.zip](../../../_includes/lab/lab07/Rect/Rect.zip)  
+[Rect.zip](../../../_includes/zip/lab/lab07/Rect.zip)  
 主类名:Test
 
 {% highlight java linenos %}
@@ -150,7 +150,7 @@ Circle Center:(10.0,20.0),radius=15.0,Area=706.5
 ![lab7-5](lab7-5.png)  
 **【样例说明】**  
 **【评分标准】**  
-[ConcentricCircles.zip](../../../_includes/lab/lab07/ConcentricCircles/ConcentricCircles.zip)  
+[ConcentricCircles.zip](../../../_includes/zip/lab/lab07/ConcentricCircles.zip)  
 主类名:Test  
 
 {% highlight java linenos %}
@@ -256,7 +256,7 @@ line2&newCircle intersection: false
 ![lab7-6](lab7-6.png)  
 **【样例说明】**  
 **【评分标准】**  
-[LineCircleIntersect.zip](../../../_includes/lab/lab07/LineCircleIntersect/LineCircleIntersect.zip)  
+[LineCircleIntersect.zip](../../../_includes/zip/lab/lab07/LineCircleIntersect.zip)  
 主类名:Test  
 
 {% highlight java linenos %}

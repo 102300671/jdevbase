@@ -1,3 +1,4 @@
+package ce.ce05;
 import java.util.Scanner;
 
 public class StudentInfo{

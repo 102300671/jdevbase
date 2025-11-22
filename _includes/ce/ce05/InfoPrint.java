@@ -1,6 +1,7 @@
+package ce.ce05;
 import java.util.Scanner;
 
-public class Main{
+public class InfoPrint{
     public static void main(String [] args){
         String name = "Tom";
         int age = 23;

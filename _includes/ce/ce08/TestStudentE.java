@@ -1,3 +1,5 @@
+package ce.ce08;
+
 class Student {
     private String name ;
     private int age ; 

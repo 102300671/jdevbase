@@ -1,3 +1,4 @@
+package ce.ce04;
 import java.util.Scanner;
 
 public class AboveAvg {

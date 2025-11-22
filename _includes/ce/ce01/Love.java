@@ -1,4 +1,4 @@
-package love;
+package ce.ce01;
 
 public class Love {
 	public static void main(String[] args) {
