@@ -79,7 +79,7 @@ Major: computer
 {% endhighlight %}
 
 {% highlight java linenos %}
-{% include _lab/lab08/Person/Student.java %}
+{% include lab/lab08/Person/Student.java %}
 {% endhighlight %}
 
 {% highlight java linenos %}
