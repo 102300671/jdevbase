@@ -17,5 +17,5 @@ title: 课堂练习2-1
 printf和C语音的printf非常类似。
 
 {% highlight java linenos %}
-{% include ce/ce02/ce02-1/Tem.java %}
+{% include ce/ce02/ce02_1/Tem.java %}
 {% endhighlight %}

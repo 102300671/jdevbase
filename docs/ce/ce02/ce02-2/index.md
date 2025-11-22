@@ -22,5 +22,5 @@ title: 课堂练习2-2
 excellent
 
 {% highlight java linenos %}
-{% include ce/ce02/ce02-2/Grade.java %}
+{% include ce/ce02/ce02_2/Grade.java %}
 {% endhighlight %}
